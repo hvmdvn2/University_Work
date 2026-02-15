@@ -1,0 +1,40 @@
+/* Removes default spacing and sets the full page to black */
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh; /* Makes the body take up the full screen height */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    font-family: 'Times New Roman', Times, serif; /* Matches the font in the PDF picture */
+}
+
+/* Container for the meme content */
+.container {
+    text-align: center; /* Centers the text inside the container */
+    color: white;       /* Sets all text color to white */
+}
+
+/* Styles the image to have the white border seen in the PDF */
+.meme-image {
+    width: 500px;            /* Adjust width to match the scale */
+    border: 5px solid white; /* Adds the specific white border */
+    display: block;          /* Ensures image sits on its own line */
+    margin: 0 auto;          /* Centers the image block */
+}
+
+/* Styles "WHEN YOU REALIZE" */
+.top-text {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Forces capital letters */
+    letter-spacing: 1px;
+}
+
+/* Styles the bottom sentence */
+.bottom-text {
+    font-size: 18px;
+    margin-top: 0;
+    color: #ffffff;
+}
